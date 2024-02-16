@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(45deg, #2c3a47, #1e272e, #313942, #222f3e);
+    color: white;
+}
+
+header {
+    background-color:whitesmoke;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+img {
+    margin-bottom: 10px;
+    border-radius: 10px; /* Square with rounded corners */
+    width: 100%; /* Make the image fill its container */
+    max-width: 200px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 80px auto; */
+}
+.navigation{
+    background-color: whitesmoke;
+    margin-top: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+section {
+    max-width: 1250px;
+    margin: 100px auto;
+    font-size: large;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.high{
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+}
+ul{
+    color: grey;
+    font-family: var(#1e272e);
+    font-size: large;
+    font-weight: bold;
+    text-align:start
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: #666;
+}
+
+h2 {
+    color: #333;
+    text-align: center; /* Center-align the heading */
+}
+
+h3{
+    color: #666;
+    text-align: center;
+}
+h4{
+    color: #333;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+image1{
+    text-align: left;
+    display:block ;
+}
+.capabilities {
+    display: flex;
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 200px;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav a {
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10%;
+    
+}
+.capability {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
